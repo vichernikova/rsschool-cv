@@ -49,8 +49,8 @@ function multiply(a, b) {
 ## Education and courses ##
 
 * 2021
-  * MDN Web Docs
-  * pluralsight.com
+  * [MDN Web Docs](https://developer.mozilla.org/en-US/)
+  * [pluralsight.com](https://www.pluralsight.com/)
   * JavaScript: The Definitive Guide, 7th Edition by David Flanagan
   * CSS: The Definitive Guide, 4th Edition by Eric A. Meyer
 * 2002 - 2007
