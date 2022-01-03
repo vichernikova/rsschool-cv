@@ -1,3 +1,135 @@
-h1 {
-	color: sandybrown;
+html {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+
+* {
+	line-height: 150%;
+}
+
+/* a */
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* root */
+
+body {
+	display: flex;
+	justify-content: center;
+}
+
+.root {
+	max-width: 64rem;
+}
+
+/* header */
+
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 3rem;
+	padding-bottom: 3rem;
+}
+
+.header__image {
+	max-width: 100%;
+	border-radius: 50%;
+	height: 16rem;	
+}
+
+.header__label {
+	margin-left: 2rem;
+}
+
+.header__label h1 {
+	font-size: 2rem;
+}
+
+.header__label p {
+	font-size: 1.25rem;
+	margin: .5rem 0;
+}
+
+/* content */
+
+.content {
+	display: flex;
+	justify-content: center;
+}
+
+.content__left {
+	width: 50%;
+}
+
+.content__right {
+	width: 50%;
+}
+
+/* profile */
+
+.profile p {
+	margin: .5rem 0;
+}
+
+/* examples */
+
+.examples pre {
+	margin: .5rem 0;
+	font-family: 'Roboto Mono', monospace;
+}
+
+/* experience */
+
+.experience h3 {
+	font-size: 1.25rem;
+}
+
+.experience em {
+	font-style: italic;
+}
+
+/* footer */
+
+.footer {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-evenly;
+	margin: 3rem;
+}
+
+.footer__rs-school img {
+	height: 3rem;
+}
+
+/* line */
+
+.line {
+	height: .5rem;
+	background: linear-gradient(45deg, orange, #ddd);
+}
+
+/* optimizations */
+
+.contacts ul, .skills ul, .projects ul, .experience ul, .education ul, .languages ul {
+	margin: .5rem 0;
+}
+
+.languages h2, .profile h2, .education h2, .experience h2, .examples h2, .projects h2, .skills h2, .contacts h2 {
+	font-size: 1.5rem;
+}
+
+.profile, .contacts, .skills, .projects, .examples, .experience, .education, .languages {
+	margin: 2rem;
+}
+
+.skills li, .projects li, .experience li, .education li, .languages li {
+	list-style-type: square;
+	margin-left: 1.3rem;
 }
