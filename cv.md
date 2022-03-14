@@ -33,11 +33,25 @@ RS School is a great opportunity to dive in the frontend world, to better unders
 ## Code Example ##
 
 ``` javascript  
-function multiply(a, b) {
-  a * b
-  return a * b
+function getDecimal(n){
+    n = Math.abs(n);
+    let integer = Math.floor(n);
+    return (n - integer);
 }
- ```
+```
+
+``` javascript  
+function getCount(str) {
+  let vowelsCount = 0;
+  const vowels = ["a", "e", "i", "o", "u"]
+    for (let char of str) {
+      if (vowels.includes(char)) {
+        vowelsCount++
+      }
+    }
+  return vowelsCount;
+}
+```
 
 ## Experience ##
 
