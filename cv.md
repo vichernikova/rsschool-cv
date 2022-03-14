@@ -62,10 +62,12 @@ function getCount(str) {
 
 ## Education and courses ##
 
-* 2021
+* 2021 - 2022
   * [MDN Web Docs](https://developer.mozilla.org/en-US/)
   * [pluralsight.com](https://www.pluralsight.com/)
   * JavaScript: The Definitive Guide, 7th Edition by David Flanagan
+  * [Code Basics](https://ru.code-basics.com/)
+  * [JavaScript.ru](https://learn.javascript.ru/)
   * CSS: The Definitive Guide, 4th Edition by Eric A. Meyer
 * 2002 - 2007
   * Faculty of Management and Social Technologies <br> Belarusian State University
