@@ -9,10 +9,6 @@ html {
 
 /* a */
 
-a {
-	text-decoration: none;
-}
-
 a:hover {
 	text-decoration: underline;
 }
@@ -30,7 +26,29 @@ body {
 
 /* header */
 
-.header {
+.menu {
+	display: flex;
+	list-style: none;
+	justify-content:space-between;
+	padding-left:0;
+	margin-top:30px;
+}
+
+.menu li a {
+	text-decoration: none;
+	cursor: pointer;
+	transition: .5s;
+	color:orange;
+	font-size: 1.25rem;
+}
+
+.menu li a:hover {
+	color: black;
+}
+
+/* hero */
+
+.hero {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -38,21 +56,21 @@ body {
 	padding-bottom: 3rem;
 }
 
-.header__image {
+.hero__image {
 	max-width: 100%;
 	border-radius: 50%;
 	height: 16rem;	
 }
 
-.header__label {
+.hero__label {
 	margin-left: 2rem;
 }
 
-.header__label h1 {
+.hero__label h1 {
 	font-size: 2rem;
 }
 
-.header__label p {
+.hero__label p {
 	font-size: 1.25rem;
 	margin: .5rem 0;
 }
@@ -89,6 +107,7 @@ body {
 
 .experience h3 {
 	font-size: 1.25rem;
+	margin-top:20px;
 }
 
 .experience em {
@@ -123,6 +142,7 @@ body {
 
 .languages h2, .profile h2, .education h2, .experience h2, .examples h2, .projects h2, .skills h2, .contacts h2 {
 	font-size: 1.5rem;
+	color:orange;
 }
 
 .profile, .contacts, .skills, .projects, .examples, .experience, .education, .languages {
