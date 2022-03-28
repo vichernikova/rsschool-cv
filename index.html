@@ -107,19 +107,18 @@
 						<pre>
 							<code>
 function century(year) {
-    return Math.ceil (year/100);
-} 
+    return Math.ceil(year/100);
+}  
 
 
-let areaLargestSquare = function(r) { 
-	return (2 * r * r);
+function getAreaLargestSquare(radius) { 
+    return 2 * Math.pow(radius, 2);
 }
 
 
-function getDecimal(n) {
-    n = Math.abs(n);
-    let integer = Math.floor(n);
-    return (n - integer);
+function otherAngle(a, b) {
+    const thirdAngle = 180 - (a + b);
+    return thirdAngle;
 }
 							</code>
 						</pre>
