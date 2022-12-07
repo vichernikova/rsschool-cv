@@ -39,3 +39,19 @@ function abbrevName(name) {
 | ---| ---|
 | 2017-2021 | А-Кvadratum, Legal Bureau <br> CEO |
 | 2006 - 2016 | Krinitsa, OJSC <br> Head of Legal Office |
+
+## Education and courses ##
+
+* 2022
+  * [MDN Web Docs](https://developer.mozilla.org/en-US/)
+  * [pluralsight.com](https://www.pluralsight.com/)
+  * [codecademy.com](https://www.codecademy.com/)
+  * JavaScript: The Definitive Guide, 7th Edition by David Flanagan
+  * CSS: The Definitive Guide, 4th Edition by Eric A. Meyer
+* 2002 - 2007
+  * Faculty of Management and Social Technologies <br> Belarusian State University
+
+## Languages ##
+
+* English - B1+
+* Italian - B1
