@@ -22,3 +22,13 @@ RS School is a great opportunity to dive in the frontend world, to better unders
 * Git/GitHub
 * Atlassian Jira
 * SQL (Basics)
+
+## Code Example ##
+
+``` javascript  
+const multiply = (...numbers) => numbers.reduce((total, number) => total * number);
+
+function abbrevName(name) {
+  return name.split(" ").map(el => el[0].toUpperCase()).join(".")
+}
+ ```
