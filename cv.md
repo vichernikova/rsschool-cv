@@ -32,3 +32,10 @@ function abbrevName(name) {
   return name.split(" ").map(el => el[0].toUpperCase()).join(".")
 }
  ```
+ 
+ ## Experience ##
+
+| Date | Place of work |
+| ---| ---|
+| 2017-2021 | А-Кvadratum, Legal Bureau <br> CEO |
+| 2006 - 2016 | Krinitsa, OJSC <br> Head of Legal Office |
